@@ -11,10 +11,3 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
-
-```shell
-npm init -y
-npm install --save-dev hardhat
-npx hardhat
-npm install --save-dev @nomicfoundation/hardhat-toolbox
-```

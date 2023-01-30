@@ -22,7 +22,7 @@ contract Payments {
         return balances[_addr].payments[_index];
     }
 
-    function currentBalance() public view returns(uint) {
+    function currentBalance() public view returns(uint ) {
         return address(this).balance;
     }
 
