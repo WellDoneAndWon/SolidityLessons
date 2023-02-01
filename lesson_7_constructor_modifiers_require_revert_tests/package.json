@@ -1,0 +1,16 @@
+{
+  "name": "lesson_7_constructor_modifiers_require_revert_tests",
+  "version": "1.0.0",
+  "description": "Конструктор — это необязательная функция, объявленная с помощью ключевого слова constructor, которая выполняется при создании контракта и где вы можете запустить код инициализации контракта.\r ![alt text](https://i.postimg.cc/1XqgtZRF/constructor.png \"Инициализация\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.6"
+  }
+}

@@ -37,4 +37,8 @@ describe("Payments", function() {
         expect(newPayment.amount).to.eq(sum)
         expect(newPayment.from).to.eq(acc2.address)
     })
+
+    it("two tx")
+
+    it("owner")
 })
