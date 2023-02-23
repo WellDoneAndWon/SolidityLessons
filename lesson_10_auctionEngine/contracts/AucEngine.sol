@@ -44,4 +44,13 @@ contract AucEngine {
 
         emit AuctionCreated(auctions.length - 1, _item, _startingPrice, duration);
     }
+
+    function getPriceFor(uint index) public view returns(uint) {
+        Auction memory currentAuction = auctions[index];
+        uint elapsed = block.timestamp - currentAuction.startsAt;
+        uint discount = elapsed * currentAuction.discountRate;
+        return currentAuction.startingPrice - discount;
+    }
+
+    
 }
